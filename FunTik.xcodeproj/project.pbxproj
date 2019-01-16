@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		0610FECA21ED67670065B5CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610FEC921ED67670065B5CA /* main.swift */; };
 		064C5F7621DF7BEC0065316C /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064C5F7521DF7BEC0065316C /* StatusMenuController.swift */; };
+		06652BC121EEC0410058FED9 /* Bridge.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 06652BC021EEC0410058FED9 /* Bridge.plugin */; };
 		06A1402921DE24AA00A3E440 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1402821DE24AA00A3E440 /* AppDelegate.swift */; };
 		06A1402B21DE24AA00A3E440 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1402A21DE24AA00A3E440 /* ViewController.swift */; };
 		06A1402D21DE24AA00A3E440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A1402C21DE24AA00A3E440 /* Assets.xcassets */; };
 		06A1403021DE24AA00A3E440 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06A1402E21DE24AA00A3E440 /* Main.storyboard */; };
 		06E8C7DB21ECA30C0015624C /* BridgeInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E8C7DA21ECA30C0015624C /* BridgeInterface.swift */; };
-		06F1B7B721EE04F8006A28BE /* Bridge.plugin in Resources */ = {isa = PBXBuildFile; fileRef = 06F1B7B621EE04F8006A28BE /* Bridge.plugin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +22,7 @@
 		064C5F7521DF7BEC0065316C /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		064F49F821DEEE71001A9357 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 		064F49F921DEEE7C001A9357 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		06652BC021EEC0410058FED9 /* Bridge.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Bridge.plugin; path = ../../Bridge/dist/Bridge.plugin; sourceTree = "<group>"; };
 		06A1402521DE24AA00A3E440 /* FunTik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunTik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A1402821DE24AA00A3E440 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06A1402A21DE24AA00A3E440 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		06A1403121DE24AA00A3E440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06A1403221DE24AA00A3E440 /* FunTik.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunTik.entitlements; sourceTree = "<group>"; };
 		06E8C7DA21ECA30C0015624C /* BridgeInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeInterface.swift; sourceTree = "<group>"; };
-		06F1B7B621EE04F8006A28BE /* Bridge.plugin */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Bridge.plugin; path = ../../../Bridge/dist/Bridge.plugin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		06A1402721DE24AA00A3E440 /* FunTik */ = {
 			isa = PBXGroup;
 			children = (
-				06F1B7B621EE04F8006A28BE /* Bridge.plugin */,
+				06652BC021EEC0410058FED9 /* Bridge.plugin */,
 				06A1402821DE24AA00A3E440 /* AppDelegate.swift */,
 				0610FEC921ED67670065B5CA /* main.swift */,
 				06E8C7DA21ECA30C0015624C /* BridgeInterface.swift */,
@@ -153,7 +153,7 @@
 			files = (
 				06A1402D21DE24AA00A3E440 /* Assets.xcassets in Resources */,
 				06A1403021DE24AA00A3E440 /* Main.storyboard in Resources */,
-				06F1B7B721EE04F8006A28BE /* Bridge.plugin in Resources */,
+				06652BC121EEC0410058FED9 /* Bridge.plugin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
